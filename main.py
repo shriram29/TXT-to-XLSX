@@ -3,7 +3,7 @@ from openpyxl.drawing.image import Image
 from openpyxl.utils.dataframe import dataframe_to_rows
 from datetime import datetime
 
-inputFilePath="./in/1.txt"
+inputFilePath="./in/2.txt"
 
 now=datetime.now()
 filename=now.strftime("./out/%d-%m-%Y_%H-%M-%S.xlsx")
